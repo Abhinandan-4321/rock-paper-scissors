@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#scoreboard{
+    color: white;
+    font-size: 12vh;
+    text-align: center;
+    margin-top: 12vh;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+#left, #right{
+    height: 33vh;
+}
+#player{
+    height: 33vh;
+    
+}
+#player-side{
+    height:70vh;
+    width:70vh;
+    border: 4px solid orange;
+}
+h3{
+    font-size: 8vh;
+    color: white;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-evenly;
+}
+
+.clickbuttons{
+    height: 107px;
+}
+#comp-side{
+    height:70vh;
+    width:70vh;
+    border: 4px solid orange;
+}
+
+#versus{
+    height: 70vh;
+}
+
+#whowon{
+    margin-left: 67vh;
+    height: 2vh;
+    width: 80vh;
+    color: white;
+    text-align: center;
+    padding-top: 4vh;
+    font-size: 7vh;
+}
+
+#pa-button{
+    color: white;
+    background-color: orange;
+    height: 6vh;
+    width: 20vh;
+    text-align: center;
+    margin-left: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12vh;
+    border-radius: 4vh;
+}
